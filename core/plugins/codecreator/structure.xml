@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Register Code Create.</name>
+	<author>Kawin Glomjai</author>
+	<createDate>October 2010</createDate>
+	<copyright>Copyright (C) 2009 Theme Joomla, Site Source Solution. All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>hello@themejoomla.com</authorEmail>
+	<authorUrl>http://www.themejoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>Adds a functionality to let you re-order your table items by dragging and dropping rows and pressing the save button. Remember to publish the plugin in your plugins administration area!</description>
+	<files>
+		<filename plugin="codecreator">create_code.php</filename>
+	</files>
+	<params>
+	  <param name="table_class" type="text" default="adminlist" label="Table Class" description="Enter the table class you would like to apply the drag n drop features. This allows for specific table enabling. Default: adminlist" />
+	  <param name="oddrow" type="text" default="#0B55C4" label="Odd Row Text Color" description="Enter the color in pixels of your odd row table text." />
+	  <param name="evenrow" type="text" default="#333333" label="Even Row Text Color" description="Enter the color in pixels of your even row table text." />
+    <param name="use_jquery" type="list" default="1" label="Use Included jQuery" description="Choose whether to use the included jQuery. Disable if your site admin is allready using jQuery. Default is Yes as most Joomla Admin areas do not use jQuery.">
+      	<option value="1">Yes</option>
+      	<option value="0">No</option>
+    </param>
+    <param name="show_arrows" type="list" default="1" label="Show Reorder Arrows" description="Choose whether to show or hide the reorder arrows. Arrows are not required if using this plugin, but you might want them anyway.">
+      	<option value="1">Yes</option>
+      	<option value="0">No</option>
+    </param>
+  </params>
+</install>

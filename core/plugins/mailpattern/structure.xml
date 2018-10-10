@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>mailpattern</name>
+	<version>0.1</version>
+	<description>TEST MY MAIL PLUGINS</description>
+	<author>TEST AT TEST</author>
+	<authormail>testt@tesss.cpm</authormail>
+	<authorurl>testtttt.com</authorurl>
+	<copyright>mycopy</copyright>
+	<createdate>23 Apr 2013</createdate>
+	
+	<config>
+		<corefiles filetypes="xml">
+			<file>web.xml</file>
+		</corefiles>
+		<languages>
+			<encode>UTF-8</encode>
+		</languages>
+		<install>false</install>
+		<active>false</active>
+	</config>
+	
+	<container plugin="codecreator">
+		<folder name="css">
+			<files>
+				<file>main.css</file>
+			</files>
+		</folder>
+		<folder name="contents">
+			<files>
+				<file>plugin.php</file>
+				<file>test.php</file>
+			</files>
+		</folder>
+	</container>
+	
+</plugin>
+
+
