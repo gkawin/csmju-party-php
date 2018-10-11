@@ -15,7 +15,7 @@ class Conf {
     const _DB_SERVER = 'localhost',
             _DB_NAME = 'csmjuparty',
             _DB_USERNAME = 'root',
-            _DB_PASSWORD = 'mininova038',
+            _DB_PASSWORD = '###',
             _WEBSITE_NAME = 'My New Website',
             _IMAGE_DIR = 'img',
             _URL = "http://party.csmju.com",
